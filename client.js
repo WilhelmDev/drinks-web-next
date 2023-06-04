@@ -5,7 +5,8 @@ export const client = createClient({
     projectId:process.env.PROJECT_ID,
     dataset: 'production',
     useCdn: false,
-    apiVersion: '2023-03-30'
+    apiVersion: '2023-03-30',
+    token: process.env.TOKEN_PROJECT
 })
 
 export async function getRum() {

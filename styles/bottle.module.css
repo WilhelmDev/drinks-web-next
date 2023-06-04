@@ -8,11 +8,23 @@
 }
 .content {
     padding: 1rem;
+    
 }
-.contenido h3 {
+.content h3 {
     font-size: 3rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: var(--primary);
+    
+}
+.contentList{
+    padding: 1rem;
+    margin-bottom: .5rem;
+}
+.contentList h3{
+    font-size: 3rem;
+    /* text-transform: uppercase; */
+    color: var(--primary);
+    margin: 0;
 }
 .presentation {
     /* display: -webkit-box;
@@ -21,14 +33,18 @@
     overflow: hidden; */
     font-size: 2.2rem;
 }
+.presentationList{
+    margin: 0;
+    font-size: 2.2rem;
+}
 .price {
     color: var(--primary);
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin: 0;
     font-weight: 900;
 }
 .link {
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: block;
     background-color: var(--black);
     color: var(--white);
@@ -40,7 +56,42 @@
     font-weight: 700;
     transition-property: background-color;
     transition-duration: 300ms;
+    border-radius: 5px;
 }
 .link:hover {
     background-color: var(--primary);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.form label{
+    font-size: 2.2rem;
+    text-align: center;
+}
+.form select{
+    border: 1px solid var(--primary);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+.form input[type='submit'] {
+    display: block;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    padding: 1.5rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 8px;
+    transition-property: background-color ease;
+    transition-duration: 300ms;
+}
+.form input[type='submit']:hover {
+    background-color: var(--primary);
+    cursor: pointer;
 }

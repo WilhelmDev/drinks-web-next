@@ -2,8 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 import styles from '@/styles/bottle.module.css'
 
-export default function Bottle({bottleData}) {
-    const {name, price, drink_image_cloud, url_product, presentation} = bottleData
+export default function BottleW({bottleDataW}) {
+    const {name, price, drink_image_cloud, url_product, presentation} = bottleDataW
     const url = url_product.current
     return (
         <div className={styles.bottle}>

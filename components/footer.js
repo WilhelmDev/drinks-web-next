@@ -9,14 +9,14 @@ export default function Footer() {
                         <Link href='/' >
                                 Inicio
                         </Link>
-                        <Link href='/about' >
-                                Nosotros
-                            </Link>
                         <Link href='/rum' >
                                 Ron
                             </Link>
                         <Link href='/whiskey' >
                                 Whiskey
+                            </Link>
+                        <Link href='/about' >
+                                Nosotros
                             </Link>
                     </nav>
                     <p className={styles.copyright}> Todos los derechos reservados {new Date().getFullYear()} </p>

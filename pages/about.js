@@ -7,8 +7,8 @@ export default function About() {
         <Layout tittle={'Nosotros'} description={'Sobre nosotros, Tienda de Bebidas'}>  
             <main className="contenedor">
                 <h2 className="heading">Nosotros</h2>
-                <div>
-                    <Image src='/img/header.jpg' alt='image about' width={500} height={500}/>
+                <div className='grid-about'>
+                    <Image src='/img/header.jpg' alt='image about' width={500} height={500} className='image'/>
                     <div>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste ad, corrupti doloribus 
                             quod consequuntur repellendus porro sint quasi sapiente nulla odit distinctio libero,
